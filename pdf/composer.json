@@ -1,0 +1,11 @@
+{
+    "name": "birthzone/pdf",
+    "description": "Create pdf file",
+    "authors": [
+        {
+            "name": "Armel Meledje",
+            "email": "meledjearmel@gmail.com"
+        }
+    ],
+    "require": {}
+}

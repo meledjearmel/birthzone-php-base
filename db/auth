@@ -1,0 +1,10 @@
+<?php
+
+require_once 'db.php';
+
+$pass = 'root';
+$password = password_hash($pass, PASSWORD_BCRYPT);
+$auth = 'root';
+
+$req = $pdo->prepare("INSERT INTO auth SET login = ?, password = ?");
+$req->execute([$auth,$password]);
